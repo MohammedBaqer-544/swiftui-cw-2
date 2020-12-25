@@ -30,9 +30,12 @@ struct Exercise1: View {
                 
                 TextField("اكتب اسمك هنا", text: $name)
                     .disableAutocorrection(true)
+                    .font(.title)
+                    .multilineTextAlignment(.center)
                     
                 
                 Stepper("كم بطلا من الماء تريد ان تتعهد بان تشرب", value: $bottle)
+                    .padding(.horizontal)
                 
                 Spacer()
                 

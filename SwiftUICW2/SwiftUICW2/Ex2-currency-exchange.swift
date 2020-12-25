@@ -28,6 +28,10 @@ struct Exercise2: View {
                         .padding()
                     
                     TextField("العملة بالدينار", text: $dinnar)
+                        .font(.title)
+                        .multilineTextAlignment(.center)
+                        .keyboardType(.numberPad)
+                        
 
                     VStack(spacing: 30){
                         HStack(spacing: 40){
