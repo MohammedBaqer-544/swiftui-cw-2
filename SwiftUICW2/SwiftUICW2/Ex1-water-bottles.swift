@@ -38,31 +38,32 @@ struct Exercise1: View {
                 
                 VStack {
                     Text("اتعهد انا")
-                        .font(.largeTitle)
+                        .font(.custom("Montserrat-Thinltalic", fixedSize: 40))
                     
                     Text(name)
-                        .font(.largeTitle)
-                    
+                        .font(.custom("Montserrat-Thinltalic", fixedSize: 40))
+
                     Text("")
-                        .font(.largeTitle)
-                    
+                        .font(.custom("Montserrat-Thinltalic", fixedSize: 40))
+
                     Text("ان اشرب")
-                        .font(.largeTitle)
-                    
+                        .font(.custom("Montserrat-Thinltalic", fixedSize: 40))
+
                     Text("\(bottle)")
-                        .font(.largeTitle)
+                        .font(.custom("Montserrat-Thinltalic", fixedSize: 40))
+
+                    Text("اكواب من الماء يومياً")
+                        .font(.custom("Montserrat-Thinltalic", fixedSize: 40))
                     
-                    Text("امواب من الماء يوميا ")
-                        .font(.largeTitle)
                     Text("والله على ما اقول شهيد")
-                        .font(.largeTitle)
-                    
+                        .font(.custom("Montserrat-Thinltalic", fixedSize: 40))
+
                 }
                 
                 Spacer()
             }.padding()
         }.onAppear {
-            playMusic()
+//            playMusic()
         }
     }
      func playMusic() {
