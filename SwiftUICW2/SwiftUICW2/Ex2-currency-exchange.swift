@@ -7,6 +7,7 @@
 import SwiftUI
 
 struct Exercise2: View {
+    @State var dinnar = ""
     var body: some View {
         
         ZStack {
@@ -26,10 +27,7 @@ struct Exercise2: View {
                         .multilineTextAlignment(.center)
                         .padding()
                     
-                    Text("استبدل هذا ب Text Field")
-                        .font(.largeTitle)
-                        .multilineTextAlignment(.center)
-                        .keyboardType(.decimalPad)
+                    TextField("العملة بالدينار", text: $dinnar)
 
                     VStack(spacing: 30){
                         HStack(spacing: 40){
@@ -38,7 +36,7 @@ struct Exercise2: View {
                                 .scaledToFit()
                                 .frame(width: 50)
                             
-                            Text("0")
+                            Text("$\((Double(dinnar) ?? 0) * 3.28 )")
                         }
                         HStack(spacing: 40){
                             Image("uk")
@@ -46,14 +44,14 @@ struct Exercise2: View {
                                 .scaledToFit()
                                 .frame(width: 50)
                             
-                            Text("0")
+                            Text("£\((Double(dinnar) ?? 0) / 2.46 )")
                         }
                         HStack(spacing: 40){
                             Image("eu")
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 50)
-                            Text("0")
+                            Text("€\((Double(dinnar) ?? 0) / 2.70 )")
                         }
                     }.padding(.top, 50)
                     Spacer()
