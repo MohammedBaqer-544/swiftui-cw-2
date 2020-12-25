@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7664F6CB25965A8600F66C8C /* Harry Potter Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7664F6CA25965A8600F66C8C /* Harry Potter Song.mp3 */; };
 		D2CB65F8258D6A0C0001A246 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CB65F7258D6A0C0001A246 /* AppDelegate.swift */; };
 		D2CB65FA258D6A0C0001A246 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CB65F9258D6A0C0001A246 /* SceneDelegate.swift */; };
 		D2CB65FC258D6A0C0001A246 /* Ex1-water-bottles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CB65FB258D6A0C0001A246 /* Ex1-water-bottles.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7664F6CA25965A8600F66C8C /* Harry Potter Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Harry Potter Song.mp3"; sourceTree = "<group>"; };
 		D2CB65F4258D6A0C0001A246 /* SwiftUICW2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICW2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2CB65F7258D6A0C0001A246 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2CB65F9258D6A0C0001A246 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		D2CB65F6258D6A0C0001A246 /* SwiftUICW2 */ = {
 			isa = PBXGroup;
 			children = (
+				7664F6CA25965A8600F66C8C /* Harry Potter Song.mp3 */,
 				D2CB65F7258D6A0C0001A246 /* AppDelegate.swift */,
 				D2CB65F9258D6A0C0001A246 /* SceneDelegate.swift */,
 				D2CB65FB258D6A0C0001A246 /* Ex1-water-bottles.swift */,
@@ -137,6 +140,7 @@
 			files = (
 				D2CB6604258D6A0F0001A246 /* LaunchScreen.storyboard in Resources */,
 				D2CB6601258D6A0F0001A246 /* Preview Assets.xcassets in Resources */,
+				7664F6CB25965A8600F66C8C /* Harry Potter Song.mp3 in Resources */,
 				D2CB65FE258D6A0F0001A246 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
